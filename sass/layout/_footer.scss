@@ -1,0 +1,203 @@
+.footer {
+    background-color: #2F303A;
+    padding: 60px 0px;
+
+}
+
+.footer-soc-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.footer-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+
+.footer-soc-ikon {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+
+}
+
+.footer-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    color: var(--white-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-property: background-color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: var(--accent-color);
+}
+
+.link-map {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+}
+
+.link-tel:hover,
+.link-mail:hover,
+.link-map:hover {
+    color: var(--accent-color);
+}
+
+.link-foter {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03rem;
+    color: #2196F3;
+    text-decoration: none;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+}
+.footer-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+.web-studio {
+    display: inline-grid;
+    align-items: baseline;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-right: 70px;
+}
+
+.soc-studio {
+    display: inline-grid;
+    align-items: baseline;
+    padding: 0;
+    width: 206px;
+    height: 80px;
+}
+
+.address-list {
+    padding: 0;
+    margin: 0;
+    color: #AFB1B8;
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+}
+
+.address-list li:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address {
+    padding: 0;
+}
+
+.link-tel,
+.link-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    color: #AFB1B8;
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+}
+.second-footer-container {
+    display: inline-grid;
+    align-items: baseline;
+    padding: 0;
+    margin-left: 93px;
+}
+
+.email-form {
+    display: flex;
+    margin-top: 0px;
+}
+
+.email-form-input {
+    margin-right: 12px;
+    padding: 15px 16px;
+    min-width: 358px;
+    height: 50px;
+    color: var(--primary-white-color);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+}
+
+.email-form-button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    padding: 10px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    border: #EEEEEE;
+    transition-property: color, background-color, filter;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.form-button-icon {
+    fill: currentColor;
+    margin-left: 10px;
+}

@@ -1,0 +1,71 @@
+.title .features {
+    width: 270px;
+    margin-right: 30px;
+}
+
+.features:last-child {
+    margin-right: 0px;
+}
+
+.features::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.icon-antenna::before {
+    background-image: url(../images/antenna.svg);
+}
+
+.icon-clock::before {
+    background-image: url(../images/clock.svg);
+}
+
+.icon-diagram::before {
+    background-image: url(../images/diagram.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/astronaut.svg);
+}
+ .device {
+     display: flex;
+     margin: auto;
+     padding: 0px;
+     gap: 30px;
+
+ }
+
+ .title-device {
+
+     margin-bottom: 50px;
+     text-align: center;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.17;
+     letter-spacing: 0.03rem;
+ }
+
+ .section-dev .section {
+     margin-bottom: 10px;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03rem;
+
+ }
+
+ .section-dev {
+     padding: 94px 0;
+     background-color: var(--bgc-color);
+ }
+
+ .section-dev .container {
+     padding-bottom: 0px;
+ }

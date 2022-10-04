@@ -1,0 +1,14 @@
+ .close-icon {
+     width: 30px;
+     height: 30px;
+     color: var(--p-text-color);
+     fill: currentColor;
+     transition-property: transform, background-color;
+     transition-duration: var(--transition-duration);
+     transition-timing-function: var(--transition-timing-function);
+ }
+
+ .close-icon:hover,
+ .close-icon:focus {
+     fill: var(--accent-color);
+ }

@@ -1,0 +1,99 @@
+.title-text {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border: 1px solid #EEEEEE;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.title-text:hover,
+.title-text:focus {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.port-title {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06rem;
+    color: #212121;
+}
+
+.port-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03rem;
+    color: var(--p-text-color);
+}
+
+ .card-thumb {
+     position: relative;
+     max-height: 294px;
+     overflow: hidden;
+ }
+
+ .thumb-box {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     padding: 64px 24px;
+     background: var(--portfolio-overlay-color);
+     transform: translateY(150%);
+     transition-property: transform;
+     transition-duration: var(--transition-duration);
+     transition-timing-function: var(--transition-timing-function);
+ }
+
+ .thumb-text {
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.56;
+     letter-spacing: 0.03em;
+     color: var(--primary-white-color);
+ }
+ .container .foto {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+ }
+
+ .foto {
+     padding: 0px;
+     margin: 0px;
+ }
+
+ .foto .card {
+     margin: 0;
+     padding-left: 0px;
+ }
+
+
+ .foto-item:hover,
+ .foto-item:focus {
+     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+ }
+
+ .foto-item {
+     display: block;
+     text-decoration: none;
+     color: var(---primary-text-color);
+     transition-property: box-shadow;
+     transition-duration: var(--transition-duration);
+     transition-timing-function: var(--transition-timing-function);
+ }
+
+ .foto-item:hover .thumb-box,
+ .foto-item:focus .thumb-box {
+     transform: translateY(0);
+
+ }
+ .port-bgc {
+     background-color: var(--bgc-color);
+     padding: 94px 0;
+ }

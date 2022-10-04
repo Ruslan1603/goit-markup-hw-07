@@ -1,0 +1,40 @@
+.header-logo {
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03rem;
+    text-decoration: none;
+}
+.contact-icon {
+    fill: currentColor;
+    margin-right: 10px;
+
+}
+
+.contact-icon:hover {
+    fill: var(--accent-color);
+
+}
+
+.header-studio,
+.header-port {
+    background-color: var(--primary-white-color);
+    border-bottom: 1px solid #ECECEC;
+}
+
+.web {
+    color: var(--accent-color);
+}
+
+.studio {
+    color: var(--primary-white-color);
+}
+
+.header-logo:focus {
+    color: #2196F3;
+}
+.header-port .header-studio {
+    background-color: var(--primary-white-color);
+}
