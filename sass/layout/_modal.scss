@@ -60,12 +60,13 @@
      transition-duration: var(--transition-duration);
      transition-timing-function: var(--transition-timing-function);
 
+    &:focus {
+            border-color: rgba(33, 150, 243, 1);
+            outline: none;
+        }
  }
 
- .modal-form-input:focus {
-     border-color: rgba(33, 150, 243, 1);
-     outline: none;
- }
+ 
 
  .modal-form-comment {
      color: var(--p-text-color);
@@ -79,19 +80,21 @@
      transition: border-color;
      transition-duration: var(--transition-duration);
      transition-timing-function: var(--transition-timing-function);
+
+    &:focus {
+            border-color: rgba(33, 150, 243, 1);
+            outline: none;
+        }
+
+                 &::placeholder {
+                     font-size: 12px;
+                     line-height: 1.17;
+                     letter-spacing: 0.01em;
+                     color: rgba(117, 117, 117, 0.5);
+                 }
  }
 
- .modal-form-comment:focus {
-     border-color: rgba(33, 150, 243, 1);
-     outline: none;
- }
 
- .modal-form-comment::placeholder {
-     font-size: 12px;
-     line-height: 1.17;
-     letter-spacing: 0.01em;
-     color: rgba(117, 117, 117, 0.5);
- }
 
  .modal-form-button {
      align-self: center;
@@ -109,16 +112,18 @@
      font-size: 16px;
      line-height: 1.9;
      border-radius: 4px;
+
+    &:hover,
+    &:focus {
+            background-color: var(--primary-white-color);
+            color: var(--p-text-color);
+            transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        }
  }
 
- .modal-form-button:hover,
- .modal-form-button:focus {
-     background-color: var(--primary-white-color);
-     color: var(--p-text-color);
-     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
- }
 
  .modal-form-input-wrapper {
      position: relative;

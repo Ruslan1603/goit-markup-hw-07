@@ -51,12 +51,13 @@
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
 
+   &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
 }
 
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-    background-color: var(--accent-color);
-}
+
 
 .link-map {
     font-style: normal;

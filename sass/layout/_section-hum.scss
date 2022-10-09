@@ -16,6 +16,7 @@
 }
 
 .section-hum {
+    background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -34,11 +35,6 @@
     color: var(--title-text-color);
     margin-bottom: 12px;
 
-}
-
-/* text h2 h3 p */
-.section-hum {
-    background-color: #F5F4FA;
 }
 
 .soc-list-icon {
@@ -68,12 +64,14 @@
     transition-property: background-color;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
+
+    &:hover,
+    &:focus {
+            background-color: var(--accent-color);
+        }
 }
 
-.soc-list-link:hover,
-.soc-list-link:focus {
-    background-color: var(--accent-color);
-}
+
 
 .soc-list-link:hover .soc-list-icon,
 .soc-list-link:focus .soc-list-icon {

@@ -5,7 +5,7 @@
     padding-right: 15px;
     width: 1200px;
 
-}
-.container .title {
-    display: flex;
+    &.title {
+            display: flex;
+        }
 }

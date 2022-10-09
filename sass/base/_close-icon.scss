@@ -6,9 +6,10 @@
      transition-property: transform, background-color;
      transition-duration: var(--transition-duration);
      transition-timing-function: var(--transition-timing-function);
- }
 
- .close-icon:hover,
- .close-icon:focus {
+
+ &:hover,
+ &:focus {
      fill: var(--accent-color);
  }
+  }

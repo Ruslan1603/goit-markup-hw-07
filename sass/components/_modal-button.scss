@@ -17,17 +17,16 @@
     transition: fill;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
+     &:hover,
+     &:focus .modal-button-icon {
+        fill: var(--accent-text-color);
+    }
+    
 }
 
-.modal-button:hover,
-.modal-button:focus .modal-button-icon {
-    fill: var(--accent-text-color);
-}
 
-.modal-btn {
-    padding: 0;
-    margin: 0;
-}
+
+
 
 .modal-btn {
     position: absolute;
@@ -36,6 +35,7 @@
     top: 8px;
     right: 8px;
     margin: 0;
+    padding: 0;
     width: 30px;
     height: 30px;
     background-color: var(--primary-white-color);

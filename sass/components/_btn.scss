@@ -17,10 +17,11 @@
     transition-property: color, background-color, box-shadow;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
+
+    &:hover,
+    &:focus {
+            background-color: var(--primary-white-color);
+            color: var(--primary-text-color);
+        }
 }
 
-.btn:hover,
-.btn:focus {
-    background-color: var(--primary-white-color);
-    color: var(--primary-text-color);
-}

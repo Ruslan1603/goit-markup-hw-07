@@ -22,20 +22,23 @@
     height: 60px;
     fill: currentColor;
     background-color: #FFFFFF;
+    &:hover,
+    &:focus {
+            fill: var(--accent-color);
+        }
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
-    fill: var(--accent-color);
-}
 
-.clients-li:not(:last-child) {
-    margin-right: 30px;
-}
+
+
 
 .clients-li {
     width: 170px;
     height: 92px;
+
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .clients-link {
@@ -50,13 +53,14 @@
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
 
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+            border-color: var(--accent-color);
+        }
 }
 
-.clients-link:hover,
-.clients-link:focus {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
+
 
 .clients .container {
     padding: 0;
