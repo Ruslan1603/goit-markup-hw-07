@@ -3,7 +3,6 @@
   --p-text-color: #757575;
   --accent-color: #2196F3;
   --primary-white-color: #FFFFFF;
-  --bgc-color: #F5F5F5;
   --silver-bgc: #F5F4FA;
   --portfolio-overlay-color: rgba(33, 150, 243, 0.9);
   --transition-duration: 250ms;
@@ -820,7 +819,6 @@ body {
 
 .section-dev {
   padding: 94px 0;
-  background-color: var(--bgc-color);
 }
 
 .section-dev .container {
@@ -1024,7 +1022,6 @@ body {
 }
 
 .port-bgc {
-  background-color: var(--bgc-color);
   padding: 94px 0;
 }
 
