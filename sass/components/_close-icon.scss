@@ -8,8 +8,8 @@
      transition-timing-function: var(--transition-timing-function);
 
 
- &:hover,
- &:focus {
-     fill: var(--accent-color);
+     &:hover,
+     &:focus {
+         fill: var(--accent-color);
+     }
  }
-  }

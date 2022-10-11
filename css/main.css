@@ -52,6 +52,13 @@ img {
   height: auto;
 }
 
+body {
+  font-family: "Roboto";
+  background-color: var(--primary-white-color);
+  color: #212121;
+  font-family: Roboto, sans-serif;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -61,32 +68,6 @@ img {
 }
 .container.title {
   display: flex;
-}
-
-.button {
-  gap: 8px;
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-}
-
-body {
-  background-color: var(--primary-white-color);
-  color: #212121;
-  font-family: Roboto, sans-serif;
-}
-
-.close-icon {
-  width: 30px;
-  height: 30px;
-  color: var(--p-text-color);
-  fill: currentColor;
-  transition-property: transform, background-color;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-timing-function);
-}
-.close-icon:hover, .close-icon:focus {
-  fill: var(--accent-color);
 }
 
 .modal-button {
@@ -256,6 +237,26 @@ body {
 .btn:hover, .btn:focus {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+}
+
+.button {
+  gap: 8px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.close-icon {
+  width: 30px;
+  height: 30px;
+  color: var(--p-text-color);
+  fill: currentColor;
+  transition-property: transform, background-color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+}
+.close-icon:hover, .close-icon:focus {
+  fill: var(--accent-color);
 }
 
 .header-logo {
